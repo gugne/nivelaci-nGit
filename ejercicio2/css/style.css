@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;/*Evita que el with o padding no modifique el tamaño de los elementos*/
+    font-size: 62.5%; /*hack para rems 1rem=10px*/
+}
+
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: #e6f0e2;
+}
+
+/*Globales*/
+h1{
+    color: #25575e;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2{
+    color: #71a4a0;
+    font-size: 2.2rem;
+}
+img{
+    display: block;
+    margin: auto auto;
+}
+
+/*Main content*/
+.box{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
